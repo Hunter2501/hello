@@ -13,3 +13,7 @@ COMO ACTUALIZAR MI REPOSITORIO
 
 bueno la cosa es esta, primero hay que agregarlo con el (1) despues agregarle un comentario con el (2) y recien ahi te deja 
 pushear con el (3)... es una poronga, y si eso no funciona le manda un (4) y haces todo el proceso del (1)-(3)... si es una garompa
+
+
+de todas formas 
+git pull -u origin master (nombre de archivo) se usa para descargar un archivo particular del repositorio
