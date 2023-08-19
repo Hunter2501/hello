@@ -1,0 +1,25 @@
+git user.name "name" para vincular el usuario
+git user.email "name" para vincular email
+git remote add origin () en lugar de () poner el enlace del repositorio
+git init para decir que la carpeta en la que estas es una repositorio local de git
+
+git status para ver si tenes alguna modificacion del repositorio para guardar 
+git add () archivo a agregar 
+git commit -m para agregar comentarios
+git push -u origin master para subir los cambios origin y master son variables 
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+git
+
