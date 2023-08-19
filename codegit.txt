@@ -7,7 +7,7 @@ git status para ver si tenes alguna modificacion del repositorio para guardar
 git add () archivo a agregar 
 git commit -m para agregar comentarios
 git push -u origin master para subir los cambios origin y master son variables 
-git
+git pull origin master IMPORTANTE no se por que pero entre cada push hay que pullear la cosa 
 git
 git
 git
