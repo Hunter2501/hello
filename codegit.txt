@@ -4,22 +4,12 @@ git remote add origin () en lugar de () poner el enlace del repositorio
 git init para decir que la carpeta en la que estas es una repositorio local de git
 
 git status para ver si tenes alguna modificacion del repositorio para guardar 
-git add () archivo a agregar 
-git commit -m para agregar comentarios
-git push -u origin master para subir los cambios origin y master son variables 
-git pull origin master IMPORTANTE no se por que pero entre cada push hay que pullear la cosa 
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
-git
+1)git add () archivo a agregar 
+2)git commit -m para agregar comentarios
+3)git push -u origin master para subir los cambios origin y master son variables 
+4)git pull origin master IMPORTANTE no se por que pero entre cada push hay que pullear la cosa 
 
+COMO ACTUALIZAR MI REPOSITORIO
+
+bueno la cosa es esta, primero hay que agregarlo con el (1) despues agregarle un comentario con el (2) y recien ahi te deja 
+pushear con el (3)... es una poronga, y si eso no funciona le manda un (4) y haces todo el proceso del (1)-(3)... si es una garompa
