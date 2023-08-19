@@ -36,6 +36,8 @@ git diff master troncogordo
 // me dice la diferencia entre las ramas, en la segunda respecto de la primera osea que si es como esta
 me va a decir que tengo 1 archivo nuevo, en cambio si uso git diff troncogordo master me va a decir que elimine 1 archivo.
 
+// cuando haces un diff te muestra en texto las diferencias, si queres salir de ahi te dice apretar "return" que seria la letra q
+
 git marge ramaorigen ramadestino 
 
 // para empezar tengo que estar en la rama que va a recibir los cambios, osea seguro es master, voy a master con un checkout 
@@ -47,3 +49,5 @@ git merge troncogordo master
 git add .                              /// el punto funciona para decir todo, si quiero agregar un solo archivo le pongo el nombre
 git commit -m ""
 git push -u origin master
+
+
