@@ -17,3 +17,33 @@ pushear con el (3)... es una poronga, y si eso no funciona le manda un (4) y hac
 
 de todas formas 
 git pull -u origin master (nombre de archivo) se usa para descargar un archivo particular del repositorio
+
+RAMAS
+git branch // me dice en que rama estoy
+git branch rama2 //crea una rama que se llama rama 2
+git branch -m rama2 troncogordo // cambia el nombre de la rama2 por troncogordo
+git checkout troncogordo  // en lugar de seguir en master me pasa a escribir en troncogordo
+git branch -d troncogordo  // elimina la rama de troncogordo pero para eso tengo que estar en otra rama
+git touch archivonuevo  // con eso creo un archivo nuevo dentro de la rama en la que este, si estoy en troncogordo por ejemplo se crea
+
+lo interesante es que si le doy el (1) y (2) (osea agrego y comento) cuando vuelvo a master, en mi carpeta desaparece el archivonuevo
+osea, re loco.
+
+diff y merge, diff para ver diferencias entre ramas, merge para unirlas
+
+git diff master troncogordo 
+
+// me dice la diferencia entre las ramas, en la segunda respecto de la primera osea que si es como esta
+me va a decir que tengo 1 archivo nuevo, en cambio si uso git diff troncogordo master me va a decir que elimine 1 archivo.
+
+git marge ramaorigen ramadestino 
+
+// para empezar tengo que estar en la rama que va a recibir los cambios, osea seguro es master, voy a master con un checkout 
+
+para agregar el archivo entonces seria 
+
+git checkout master
+git merge troncogordo master 
+git add .                              /// el punto funciona para decir todo, si quiero agregar un solo archivo le pongo el nombre
+git commit -m ""
+git push -u origin master
